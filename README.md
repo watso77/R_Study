@@ -16,6 +16,7 @@
   - install.packages("extrafont") 
   - library(extrafont) 
   - font_import()
+  - par(family='NanumGothic')
 3. R에서 글꼴 불러오기
   - library(ggplot2) 
   - theme_set(theme_grey(base_family='NanumGothic'))
